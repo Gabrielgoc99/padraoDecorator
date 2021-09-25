@@ -1,6 +1,6 @@
 
 
-public abstract class PacoteBasico implements Carro {
+public class PacoteBasico implements Carro {
 
     public float desempenhoCarro;
 

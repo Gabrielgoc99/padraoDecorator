@@ -10,9 +10,13 @@ public class Estabilidade extends CarroDecorator {
         return 20.0f;
     }
 
-    public String getPacoteDesempenho() {
+    public String getNomePacoteDesempenho() {
         return "Pacote Desempenho";
     }
 
 
+    @Override
+    public float getDesempenhoCarro() {
+        return 0;
+    }
 }

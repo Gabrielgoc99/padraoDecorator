@@ -10,7 +10,12 @@ public class Potencia extends CarroDecorator {
         return 30.0f;
     }
 
-    public String getPacoteDesempenho() {
+    public String getNomePacoteDesempenho() {
         return "Pacote Potência";
+    }
+
+    @Override
+    public float getDesempenhoCarro() {
+        return 0;
     }
 }

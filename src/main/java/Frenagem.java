@@ -10,7 +10,12 @@ public class Frenagem extends CarroDecorator {
         return 10.0f;
     }
 
-    public String getPacoteDesempenho() {
+    public String getNomePacoteDesempenho() {
         return "Pacote Frenagem";
+    }
+
+    @Override
+    public float getDesempenhoCarro() {
+        return 0;
     }
 }

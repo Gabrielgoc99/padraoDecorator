@@ -2,6 +2,6 @@
 
 public interface Carro {
 
-    float getValorDesempenho();
+    float getDesempenhoCarro();
     String getPacoteDesempenho();
 }

@@ -20,13 +20,13 @@ public abstract class CarroDecorator implements Carro {
     public abstract float getPercentualDesempenho();
 
     public float getValorDesempenho() {
-        return this.carro.getValorDesempenho() * (1 + (this.getPercentualDesempenho() / 100));
+        return this.carro.getDesempenhoCarro() * (1 + (this.getPercentualDesempenho() / 100));
     }
 
     public abstract String getNomePacoteDesempenho();
 
     public String getPacoteDesempenho() {
-        return this.carro.getValorDesempenho() + "/" + this.getNomePacoteDesempenho();
+        return this.carro.getPacoteDesempenho() + "/" + this.getNomePacoteDesempenho();
     }
 
     public void setPacoteDesempenho(String pacoteDesempenho) {
