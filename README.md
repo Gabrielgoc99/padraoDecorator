@@ -1,2 +1,2 @@
 # padraoDecorator
-Exercício acadêmico utilizando o Padrão de Projeto Composite.
+Exercício acadêmico utilizando o Padrão de Projeto Decorator.
